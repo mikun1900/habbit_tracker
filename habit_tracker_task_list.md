@@ -105,17 +105,17 @@
 
 ### フェーズ5: ユーティリティの実装
 
-#### タスク5-1: DateTime拡張の実装
+#### [x] タスク5-1: DateTime拡張の実装
 - `lib/utils/extensions/datetime_extension.dart`を作成
 - `normalized`プロパティを実装
 - `isSameDay`メソッドを実装
 
-#### タスク5-2: カレンダー色計算の実装
+#### [x] タスク5-2: カレンダー色計算の実装
 - `lib/utils/helpers/color_calculator.dart`を作成
 - `CalendarColorCalculator`クラスを実装
 - 実行回数に応じた色の濃淡を計算
 
-#### タスク5-3: 日付範囲計算の実装
+#### [x] タスク5-3: 日付範囲計算の実装
 - `lib/utils/helpers/date_range_calculator.dart`を作成
 - `DateRangeCalculator`クラスを実装
 - 開始日・日数の計算メソッドを実装
