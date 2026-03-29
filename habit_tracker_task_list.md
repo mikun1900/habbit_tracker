@@ -26,21 +26,21 @@
 
 ### フェーズ2: ドメイン層の実装
 
-#### タスク2-1: Taskエンティティの実装
+#### [x] タスク2-1: Taskエンティティの実装
 
 - `lib/domain/entities/task.dart`を作成
 - Freezedを使用してTaskエンティティを定義
 - `TaskExtension`に`create`と`update`メソッドを実装
 - `build_runner`でコード生成を実行
 
-#### タスク2-2: TaskExecutionエンティティの実装
+#### [x] タスク2-2: TaskExecutionエンティティの実装
 
 - `lib/domain/entities/task_execution.dart`を作成
 - Freezedを使用してTaskExecutionエンティティを定義
 - `TaskExecutionExtension`に`create`メソッドを実装
 - `build_runner`でコード生成を実行
 
-#### タスク2-3: Repositoryインターフェースの実装
+#### [x] タスク2-3: Repositoryインターフェースの実装
 
 - `lib/domain/repositories/task_repository.dart`を作成
 - `TaskRepository`インターフェースを定義
@@ -84,13 +84,13 @@
 
 ### フェーズ4: アプリケーション層の実装
 
-#### タスク4-1: 基本Providersの実装
+#### [x] タスク4-1: 基本Providersの実装
 
 - `lib/application/providers/providers.dart`を作成
 - `DatabaseHelper`、`DataSource`、`Repository`のProvidersを定義
 - `build_runner`でコード生成を実行
 
-#### タスク4-2: タスク関連Providersの実装
+#### [x] タスク4-2: タスク関連Providersの実装
 
 - `lib/application/providers/task_provider.dart`を作成
 - `taskListProvider`（StreamProvider）を実装
@@ -98,7 +98,7 @@
 - `TaskNotifier`を実装（CRUD操作）
 - `build_runner`でコード生成を実行
 
-#### タスク4-3: 実行記録関連Providersの実装
+#### [x] タスク4-3: 実行記録関連Providersの実装
 
 - `lib/application/providers/task_execution_provider.dart`を作成
 - `taskExecutionListProvider`（StreamProvider）を実装
@@ -142,14 +142,14 @@
 
 ### フェーズ6: プレゼンテーション層の実装
 
-#### タスク6-1: 共通ウィジェットの実装
+#### [x] タスク6-1: 共通ウィジェットの実装
 
 - `lib/presentation/widgets/task_card.dart`を作成
 - `TaskCard`ウィジェットを実装
 - `lib/presentation/widgets/contribution_calendar.dart`を作成
 - `ContributionCalendar`ウィジェットを実装
 
-#### タスク6-2: ホーム画面の実装
+#### [x] タスク6-2: ホーム画面の実装
 
 - `lib/presentation/screens/home/home_screen.dart`を作成
 - タスク一覧表示機能を実装
@@ -157,7 +157,7 @@
 - タスク詳細への遷移を実装
 - タスク追加ボタンを実装
 
-#### タスク6-3: カレンダー画面の実装
+#### [x] タスク6-3: カレンダー画面の実装
 
 - `lib/presentation/screens/calendar/calendar_screen.dart`を作成
 - 期間切り替え機能を実装（1ヶ月/3ヶ月/6ヶ月/1年）
@@ -165,7 +165,7 @@
 - Contributionカレンダー表示を実装
 - 日付タップで詳細表示を実装
 
-#### タスク6-4: タスク登録・編集画面の実装
+#### [x] タスク6-4: タスク登録・編集画面の実装
 
 - `lib/presentation/screens/task_form/task_form_screen.dart`を作成
 - タスク名入力フィールドを実装
@@ -173,7 +173,7 @@
 - バリデーションを実装
 - 保存機能を実装（新規作成・編集対応）
 
-#### タスク6-5: タスク詳細画面の実装
+#### [x] タスク6-5: タスク詳細画面の実装
 
 - `lib/presentation/screens/task_detail/task_detail_screen.dart`を作成
 - タスク情報表示を実装
@@ -181,7 +181,7 @@
 - 編集画面への遷移を実装
 - タスク削除機能を実装（確認ダイアログ付き）
 
-#### タスク6-6: アプリケーションルートの実装
+#### [x] タスク6-6: アプリケーションルートの実装
 
 - `lib/app.dart`を作成
 - `ProviderScope`でアプリをラップ
